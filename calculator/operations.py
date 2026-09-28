@@ -8,7 +8,7 @@ class Calculation(ABC):
 
     @abstractmethod
     def calculate(self) -> float:
-        pass
+        raise NotImplementedError
 
 
 class Add(Calculation):
